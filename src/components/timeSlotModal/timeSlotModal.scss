@@ -1,0 +1,51 @@
+.tsmodal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    background: #fff;
+    padding: 8px;
+    border: 1px solid #6495ed;
+    border-radius: 8px;
+    height: 150px;
+    width: 200px;
+  }
+}
+
+.tsoverlay {
+  position: absolute;
+  z-index: 10;
+}
+
+.btn {
+  opacity: 0.6;
+  width: 100%;
+  color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.tsevent-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__field {
+    margin-bottom: 8px;
+    border: none;
+  }
+
+  &__btn-submit {
+    background-color: #6495ed;
+  }
+
+  &__btn-cancel {
+    background-color: #ff0000;
+  }
+}
